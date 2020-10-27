@@ -1,10 +1,31 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Cursos</ion-title>
-    <ion-back-button routerLink="/inicio"></ion-back-button>
+    <ion-back-button routerLink="/inicio">Volver</ion-back-button>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
 
+
+<ion-content>
+  
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+    <ion-tab-button>
+     
+    <ion-label  routerLink="/tabs/dam1">1DAM</ion-label>
+    <ion-icon name="bookmarks-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button>
+      <ion-label  routerLink="/tabs/dam2">2DAM</ion-label>
+      <ion-icon name="git-compare-outline"></ion-icon>
+      </ion-tab-button>
+
+      <ion-tab-button>
+        <ion-label  routerLink="/tabs/fct">FCT</ion-label>
+        <ion-icon name="briefcase-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+  </ion-tabs>
 </ion-content>

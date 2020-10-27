@@ -16,10 +16,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/datospersonales/datospersonales.module').then( m => m.DatospersonalesPageModule)
   },
   {
-    path: 'cursos',
-    loadChildren: () => import('./pages/cursos/cursos.module').then( m => m.CursosPageModule)
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
- 
+
 ];
 
 @NgModule({
