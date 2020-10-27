@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CursosPage } from './cursos.page';
+import { CursosPage } from './tabs.page';
 
 const routes: Routes = [
   {

@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CursosPageRoutingModule } from './cursos-routing.module';
+import { CursosPageRoutingModule } from './tabs-routing.module';
 
-import { CursosPage } from './cursos.page';
+import { CursosPage } from './tabs.page';
 
 @NgModule({
   imports: [
