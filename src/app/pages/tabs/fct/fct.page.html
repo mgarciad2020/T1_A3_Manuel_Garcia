@@ -1,9 +1,37 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>fct</ion-title>
+    <ion-back-button defaultHref="/inicio" slot="start">Volver</ion-back-button> 
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+    <ion-tab-button>
+     
+    <ion-label  routerLink="/tabs/dam1">1DAM</ion-label>
+    <ion-icon name="bookmarks-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button>
+      <ion-label  routerLink="/tabs/dam2">2DAM</ion-label>
+      <ion-icon name="git-compare-outline"></ion-icon>
+      </ion-tab-button>
+
+      <ion-tab-button>
+        <ion-label  routerLink="/tabs/fct">FCT</ion-label>
+        <ion-icon name="briefcase-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+  </ion-tabs>
 
 </ion-content>

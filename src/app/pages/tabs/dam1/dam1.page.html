@@ -1,9 +1,87 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>dam1</ion-title>
+    <ion-back-button defaultHref="/inicio" slot="start">Volver</ion-back-button> 
+    <ion-title>DAM 1</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+    <ion-tab-button>
+     
+    <ion-label  routerLink="/tabs/dam1">1DAM</ion-label>
+    <ion-icon name="bookmarks-outline"></ion-icon>
+    </ion-tab-button>
 
+    <ion-tab-button>
+      <ion-label  routerLink="/tabs/dam2">2DAM</ion-label>
+      <ion-icon name="git-compare-outline"></ion-icon>
+      </ion-tab-button>
+
+      <ion-tab-button>
+        <ion-label  routerLink="/tabs/fct">FCT</ion-label>
+        <ion-icon name="briefcase-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+  </ion-tabs>
+
+  <ion-list>
+    <ion-item>
+        <ion-avatar slot="start">
+         <img src="https://cdn.icon-icons.com/icons2/1508/PNG/128/java_103976.png">
+        </ion-avatar>
+      <ion-label>Programación</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+     <ion-avatar slot="start">
+      <img src="https://cdn.icon-icons.com/icons2/140/PNG/128/database_data_20916.png">
+     </ion-avatar>
+      <ion-label>Bases de Datos</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/2107/PNG/128/file_type_html_icon_130541.png">
+       </ion-avatar>
+      <ion-label>Lenguaje de Marcas</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/2248/PNG/128/language_java_icon_138435.png">
+       </ion-avatar>
+      <ion-label>Entornos del desarrollo</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/46/PNG/128/samba_files_windows_linux_9403.png">
+       </ion-avatar>
+      <ion-label>Sistemas Informaticos</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/230/PNG/128/EnglishLanguage_Flag1_26107.png">
+       </ion-avatar>
+      <ion-label>Inglés</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>    
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://media.istockphoto.com/vectors/isometric-business-people-came-from-different-way-but-have-same-vector-id1130035011?b=1&k=6&m=1130035011&s=170x170&h=OXehMEMNDMTFOt9LAd1Ww0jmAdbTeh4y4aRpXF7Pk2A=">
+       </ion-avatar>
+      <ion-label>Formación y Orientación Laboral</ion-label>
+      <ion-checkbox color = "danger" slot="end"></ion-checkbox>
+    </ion-item>
+  </ion-list>
 </ion-content>

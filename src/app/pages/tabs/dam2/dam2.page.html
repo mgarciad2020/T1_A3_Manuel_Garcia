@@ -1,9 +1,79 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>dam2</ion-title>
+    <ion-back-button defaultHref="/inicio" slot="start">Volver</ion-back-button> 
+    <ion-title>DAM 2</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+    <ion-tab-button>
+     
+    <ion-label  routerLink="/tabs/dam1">1DAM</ion-label>
+    <ion-icon name="bookmarks-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button>
+      <ion-label  routerLink="/tabs/dam2">2DAM</ion-label>
+      <ion-icon name="git-compare-outline"></ion-icon>
+      </ion-tab-button>
+
+      <ion-tab-button>
+        <ion-label  routerLink="/tabs/fct">FCT</ion-label>
+        <ion-icon name="briefcase-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+  </ion-tabs>
+
+  <ion-list>
+    <ion-item>
+        <ion-avatar slot="start">
+         <img src="https://cdn.icon-icons.com/icons2/66/PNG/128/javawebstart_java_we_13069.png">
+        </ion-avatar>
+      <ion-label>Procesos y Servicios</ion-label>
+      <ion-checkbox  color ="primary" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+     <ion-avatar slot="start">
+      <img src="https://cdn.icon-icons.com/icons2/534/PNG/128/data-servers_icon-icons.com_52838.png">
+     </ion-avatar>
+      <ion-label>Acceso a Datos</ion-label>
+      <ion-checkbox color="secondary" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/2076/PNG/128/bag_business_currency_dollar_finance_money_icon_127242.png">
+       </ion-avatar>
+      <ion-label>Sistemas de Gestión Empresarial</ion-label>
+      <ion-checkbox color="danger" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/37/PNG/128/java_Dukelogo_java_3992.png">
+       </ion-avatar>
+      <ion-label>Desarrollo de interfaces</ion-label>
+      <ion-checkbox color="dark" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/673/PNG/128/Android_icon-icons.com_60488.png">
+       </ion-avatar>
+      <ion-label>Programación Multimedia</ion-label>
+      <ion-checkbox color="warning" slot="end"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.icon-icons.com/icons2/1879/PNG/128/iconfinder-3-avatar-2754579_120516.png">
+       </ion-avatar>
+      <ion-label>Empresas</ion-label>
+      <ion-checkbox color="light" slot="end"></ion-checkbox>
+    </ion-item>
+  </ion-list>
 </ion-content>
